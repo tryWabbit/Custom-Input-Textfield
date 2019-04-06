@@ -1,4 +1,9 @@
 # Custom-Input-Textfield
+
+![Swift](https://img.shields.io/badge/Swift-v4.2-orange.svg) 
+![Xcode](https://img.shields.io/badge/XCode-10.0-blue.svg)
+![UITextfield](https://img.shields.io/badge/UITextfield-Helper-blue.svg)
+
 Custom Input Textfield is created to reduce the time taken to design simple forms to take input from users. Just create an object of `customInputView` and add it UIStackView,UIView or UIScrollView whatever you like. 
 
 ![Screen Shot 2019-04-06 at 5 20 02 PM](https://user-images.githubusercontent.com/20557360/55669040-40f76200-5890-11e9-9924-231446e911b0.png)
