@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1141C95A2258895600FC125A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1141C9592258895600FC125A /* AppDelegate.swift */; };
+		1141C95C2258895600FC125A /* NormalExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1141C95B2258895600FC125A /* NormalExampleViewController.swift */; };
+		1141C95F2258895600FC125A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1141C95D2258895600FC125A /* Main.storyboard */; };
+		1141C9612258895800FC125A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1141C9602258895800FC125A /* Assets.xcassets */; };
+		1141C9642258895800FC125A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1141C9622258895800FC125A /* LaunchScreen.storyboard */; };
+		1141C96C22588D0E00FC125A /* ScrollViewExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1141C96B22588D0E00FC125A /* ScrollViewExampleViewController.swift */; };
+		1141C96F22588E4100FC125A /* customInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1141C96D22588E4100FC125A /* customInputView.swift */; };
+		1141C97022588E4100FC125A /* customInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1141C96E22588E4100FC125A /* customInputView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1141C9562258895600FC125A /* Custom Input Textfield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Input Textfield.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1141C9592258895600FC125A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1141C95B2258895600FC125A /* NormalExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalExampleViewController.swift; sourceTree = "<group>"; };
+		1141C95E2258895600FC125A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1141C9602258895800FC125A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1141C9632258895800FC125A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1141C9652258895800FC125A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1141C96B22588D0E00FC125A /* ScrollViewExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExampleViewController.swift; sourceTree = "<group>"; };
+		1141C96D22588E4100FC125A /* customInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customInputView.swift; sourceTree = "<group>"; };
+		1141C96E22588E4100FC125A /* customInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = customInputView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1141C9532258895600FC125A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1141C94D2258895600FC125A = {
+			isa = PBXGroup;
+			children = (
+				1141C9582258895600FC125A /* Custom Input Textfield */,
+				1141C9572258895600FC125A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1141C9572258895600FC125A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1141C9562258895600FC125A /* Custom Input Textfield.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1141C9582258895600FC125A /* Custom Input Textfield */ = {
+			isa = PBXGroup;
+			children = (
+				1141C9592258895600FC125A /* AppDelegate.swift */,
+				1141C95B2258895600FC125A /* NormalExampleViewController.swift */,
+				1141C96B22588D0E00FC125A /* ScrollViewExampleViewController.swift */,
+				1141C97122588E4600FC125A /* Custom Input View */,
+				1141C95D2258895600FC125A /* Main.storyboard */,
+				1141C9602258895800FC125A /* Assets.xcassets */,
+				1141C9622258895800FC125A /* LaunchScreen.storyboard */,
+				1141C9652258895800FC125A /* Info.plist */,
+			);
+			path = "Custom Input Textfield";
+			sourceTree = "<group>";
+		};
+		1141C97122588E4600FC125A /* Custom Input View */ = {
+			isa = PBXGroup;
+			children = (
+				1141C96D22588E4100FC125A /* customInputView.swift */,
+				1141C96E22588E4100FC125A /* customInputView.xib */,
+			);
+			path = "Custom Input View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1141C9552258895600FC125A /* Custom Input Textfield */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1141C9682258895800FC125A /* Build configuration list for PBXNativeTarget "Custom Input Textfield" */;
+			buildPhases = (
+				1141C9522258895600FC125A /* Sources */,
+				1141C9532258895600FC125A /* Frameworks */,
+				1141C9542258895600FC125A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Custom Input Textfield";
+			productName = "Custom Input Textfield";
+			productReference = 1141C9562258895600FC125A /* Custom Input Textfield.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1141C94E2258895600FC125A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Dream begin";
+				TargetAttributes = {
+					1141C9552258895600FC125A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 1141C9512258895600FC125A /* Build configuration list for PBXProject "Custom Input Textfield" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1141C94D2258895600FC125A;
+			productRefGroup = 1141C9572258895600FC125A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1141C9552258895600FC125A /* Custom Input Textfield */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1141C9542258895600FC125A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1141C9642258895800FC125A /* LaunchScreen.storyboard in Resources */,
+				1141C9612258895800FC125A /* Assets.xcassets in Resources */,
+				1141C97022588E4100FC125A /* customInputView.xib in Resources */,
+				1141C95F2258895600FC125A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1141C9522258895600FC125A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1141C96C22588D0E00FC125A /* ScrollViewExampleViewController.swift in Sources */,
+				1141C95C2258895600FC125A /* NormalExampleViewController.swift in Sources */,
+				1141C96F22588E4100FC125A /* customInputView.swift in Sources */,
+				1141C95A2258895600FC125A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1141C95D2258895600FC125A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1141C95E2258895600FC125A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1141C9622258895800FC125A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1141C9632258895800FC125A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1141C9662258895800FC125A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1141C9672258895800FC125A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1141C9692258895800FC125A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Custom Input Textfield/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dream-begin.Custom-Input-Textfield";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1141C96A2258895800FC125A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Custom Input Textfield/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dream-begin.Custom-Input-Textfield";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1141C9512258895600FC125A /* Build configuration list for PBXProject "Custom Input Textfield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1141C9662258895800FC125A /* Debug */,
+				1141C9672258895800FC125A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1141C9682258895800FC125A /* Build configuration list for PBXNativeTarget "Custom Input Textfield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1141C9692258895800FC125A /* Debug */,
+				1141C96A2258895800FC125A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1141C94E2258895600FC125A /* Project object */;
+}
