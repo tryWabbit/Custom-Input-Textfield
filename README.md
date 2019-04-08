@@ -14,7 +14,8 @@ The above form was created with the number of lines
     for index in 1...10 {
         let title = "Title " + "\(index)"
         let placeholder = "Placeholder " + "\(index)"
-        let inputView = customInputView(title: title, image:#imageLiteral(resourceName: "icon3"), placeHolder:placeholder)             inputView.delegate = self // to get textfield delegate
+        let inputView = customInputView(title: title, image:#imageLiteral(resourceName: "icon3"), placeHolder:placeholder) 
+        inputView.delegate = self // to get textfield delegate
         stackView.addArrangedSubview(inputView)
     }
     stackView.spacing = 15.0
