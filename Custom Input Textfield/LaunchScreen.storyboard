@@ -17,16 +17,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_screen" translatesAutoresizingMaskIntoConstraints="NO" id="2zL-Ql-mxz">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backround" translatesAutoresizingMaskIntoConstraints="NO" id="WbB-RU-NPs">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@TryWabbit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ome-z4-bFk">
+                                <rect key="frame" x="141" y="636" width="93" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="2zL-Ql-mxz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8c1-NV-gmJ"/>
-                            <constraint firstItem="2zL-Ql-mxz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="KfR-H8-qgx"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2zL-Ql-mxz" secondAttribute="trailing" id="jLE-3Y-JwG"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2zL-Ql-mxz" secondAttribute="bottom" id="yNp-I5-IZp"/>
+                            <constraint firstItem="WbB-RU-NPs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GgK-vO-BBo"/>
+                            <constraint firstItem="WbB-RU-NPs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Ka7-dY-fMs"/>
+                            <constraint firstItem="Ome-z4-bFk" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="OHi-N4-dGz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Ome-z4-bFk" secondAttribute="bottom" constant="10" id="Olp-hs-tix"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WbB-RU-NPs" secondAttribute="bottom" id="Quj-Xb-soS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WbB-RU-NPs" secondAttribute="trailing" id="SJB-cQ-59K"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -37,6 +45,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="launch_screen" width="507" height="592"/>
+        <image name="backround" width="507" height="592"/>
     </resources>
 </document>
